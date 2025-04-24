@@ -15,7 +15,7 @@
 
 ---
 
-## 🧭 Topics Covered by Subchapter
+## 📌 Topics Covered by Subchapter
 
 ### 2.1 Data Manipulation
 

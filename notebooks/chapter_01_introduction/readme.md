@@ -6,7 +6,7 @@ This chapter provides an introductory overview over general machine learning ter
 
 ---
 
-## 🧭 Topics Covered
+## 📌 Topics Covered
 
 - Key components (data, models, objective functions, optimization algorithms)
 - Kinds of machine learning problems (supervised, unsupervised & reinforcement learning)

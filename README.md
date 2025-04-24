@@ -1,6 +1,6 @@
 # 📘 Dive into Deep Learning
-My annotated journey through the [d2l.ai](https://d2l.ai/) book using PyTorch – notes, exercises, and side projects.
 
+My annotated journey through the [d2l.ai](https://d2l.ai/) book using PyTorch – notes, exercises, and side projects.
 
 <!-- 
 # 📘 Dive into Deep Learning – My Learning Journey
@@ -46,8 +46,10 @@ I want to:
 
 ## 🧰 Tools & Stack
 
-- Python 3.x
+- Python 3.x / 3.13.3
 - PyTorch
+- Numpy
+- Pandas
 - Jupyter Notebooks
 - VS Code
 
