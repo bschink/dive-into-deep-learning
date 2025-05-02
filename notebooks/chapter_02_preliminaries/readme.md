@@ -10,8 +10,8 @@
 | Notebook | Topic |
 |----------|-------|
 | `02_01_data_manipulation.ipynb` | Tensor basics in PyTorch |
-<!--| `02_02_data_preprocessing.ipynb` | Reading, transforming, and loading data |
-| `02_03_linear_algebra.ipynb` | Vectors, matrices, and matrix operations |-->
+| `02_02_data_preprocessing.ipynb` | Introduction to Pandas |
+| `02_03_linear_algebra.ipynb` | Vectors, matrices, tensors and their operations |
 
 ---
 
@@ -21,13 +21,13 @@
 
 Learned basic tensor operations using PyTorch’s `torch.tensor` and `torch.arange`. This included indexing, slicing, broadcasting, saving memory through in place operations and conversions of tensors to other Python objects.
 
-<!--### 2.2 Data Preprocessing
+### 2.2 Data Preprocessing
 
-Explored data loading with pandas, transforming inputs, and `torch.utils.data.Dataset`. Practiced normalizing and visualizing samples.
+Explored data loading with pandas, data preperation and conversion to the tensor format.
 
 ### 2.3 Linear Algebra
 
-Got hands-on with dot products, matrix multiplication, identity matrices, and transposes. Wrote helper visualizations using matplotlib.-->
+Revised linear algebra basics and their Pytorch implementations. This included scalars, vectors, matrices, tensors, reduction, dot product and matrix multiplication.
 
 ---
 
