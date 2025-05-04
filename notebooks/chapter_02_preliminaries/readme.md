@@ -12,6 +12,7 @@
 | `02_01_data_manipulation.ipynb` | Tensor basics in PyTorch |
 | `02_02_data_preprocessing.ipynb` | Introduction to Pandas |
 | `02_03_linear_algebra.ipynb` | Vectors, matrices, tensors and their operations |
+| `02_04_calculus.ipynb` | derivatives, differentiation, partial derivatives, chain rule |
 
 ---
 
@@ -28,6 +29,10 @@ Explored data loading with pandas, data preperation and conversion to the tensor
 ### 2.3 Linear Algebra
 
 Revised linear algebra basics and their Pytorch implementations. This included scalars, vectors, matrices, tensors, reduction, dot product and matrix multiplication.
+
+### 2.4 Calculus
+
+Revised calculus basics and visualization methods. This included derivatives, differentiation, partial derivatives and the chain rule.
 
 ---
 

@@ -50,6 +50,7 @@ I want to:
 - PyTorch
 - Numpy
 - Pandas
+- Matplotlib
 - Jupyter Notebooks
 - VS Code
 
