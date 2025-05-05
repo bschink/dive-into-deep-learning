@@ -1,7 +1,6 @@
 # 📘 Chapter 02 – Preliminaries
 
-<!--TODO: write text-->
-<!-- This chapter covers essential mathematical and programming foundations needed for deep learning. I implemented the concepts in separate notebooks, each focusing on one topic.-->
+In this chapter I learned or revised the mathematical and programming groundwork essential for deep learning. It revisits key topics such as tensor operations, data preprocessing, linear algebra, calculus, probability, and the use of automatic differentiation — all using PyTorch. Each subchapter has its own notebook where I coded along and solved the exercises.
 
 ---
 
@@ -14,6 +13,8 @@
 | `02_03_linear_algebra.ipynb` | Vectors, matrices, tensors and their operations |
 | `02_04_calculus.ipynb` | derivatives, differentiation, partial derivatives, chain rule |
 | `02_05_automatic_differentiation` | grad() and backward() Pytorch functions |
+| `02_06_probability_and_statistics` | random variables, probability, bayes theorem |
+| `02_07_documentation` | Pytorch documentation |
 
 ---
 
@@ -38,6 +39,14 @@ Revised calculus basics and visualization methods. This included derivatives, di
 ### 2.5. Automatic Differentiation
 
 Introduction to the mechanics of the grad() and backward() Pytorch functions as well as detaching.
+
+### 2.6. Probability and Statistics
+
+Revised the basics of probability theory and statistics including random variables, density functions, bayes theorem etc.
+
+### 2.7. Documentation
+
+Tips on how to use the Pytorch documentation.
 
 ---
 
