@@ -1,5 +1,7 @@
 # utils/datamodule.py
 
+import torch
+
 from utils import HyperParameters
 
 class DataModule(HyperParameters):
@@ -15,3 +17,9 @@ class DataModule(HyperParameters):
 
     def val_dataloader(self):
         return self.get_dataloader(train=False)
+    
+    def get_tensorloader(self, tensors, train, indices=slice(0, None)):
+        tensors = tuple(a[indices] for a in tensors)
+        dataset = torch.utils.data.TensorDataset(*tensors)
+        return torch.utils.data.DataLoader(dataset, self.batch_size,
+                                        shuffle=train)
