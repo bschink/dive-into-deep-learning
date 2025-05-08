@@ -4,4 +4,3 @@ from .hyperparams import HyperParameters
 from .module import Module
 from .trainer import Trainer
 from .datamodule import DataModule
-from .data import SyntheticRegressionData

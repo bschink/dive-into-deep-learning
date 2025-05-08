@@ -1,7 +1,6 @@
-# utils/data.py
+# utils/synthetic.py
 
 import torch
-import random
 
 from utils import DataModule
 
