@@ -1,3 +1,3 @@
-# dataloader/__init__.py
+# dataloaders/__init__.py
 
 from .synthetic import SyntheticRegressionData
