@@ -1,6 +1,6 @@
 # 📘 Chapter 03 – Linear Neural Networks for Regression
 
-<!--TODO write summary-->
+In this chapter, I learned how to implement and train linear neural networks for regression tasks. Starting from synthetic data generation, I explored building linear regression models from scratch as well as using PyTorch’s concise tools. I also introduced an object-oriented design for structuring models, datasets, and training loops, which will serve as a foundation for future chapters. Key machine learning concepts such as underfitting, overfitting, cross-validation, and regularization through weight decay were revisited and implemented.
 
 ---
 
@@ -13,6 +13,8 @@
 | `03_03_synthetic_regression_data` | generate and load synthetic regression data |
 | `03_04_linear_regression_implementation_from_scratch` | implement linear regression from scratch |
 | `03_05_concise_implementation_of_linear_regression` | implementation of linear regression using all Pytorch tools |
+| `03_06_generalization` | underfitting, overfitting, cross validation |
+| `03_07_weight_decay` | regularization in form of weight decay |
 
 ---
 
@@ -37,6 +39,14 @@ Implementing linear regression (model, loss function, optimization algorithm) fr
 ### 3.5 Concise Implementation of Linear Regression
 
 Implementing linear regression using all the features Pytorch offers like Lazy Linear, MSELoss and SGD.
+
+### 3.6 Generalization
+
+Revision on training and generalization error, underfitting and overfitting and k-fold cross validation.
+
+### 3.7 Weight Decay
+
+Revised regularization and learned about the differences using it in neural networks opposed to classical machine learning.
 
 ---
 
