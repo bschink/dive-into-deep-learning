@@ -9,6 +9,7 @@
 | Notebook | Topic |
 |----------|-------|
 | `04_01_softmax_regression` | softmax, information theory basics |
+| `04_02_the_image_classification_dataset` | MNIST dataset |
 
 ---
 
@@ -17,6 +18,10 @@
 ### 4.1. Softmax Regression
 
 Introduced the softmax function, corresponding loss function and information theory basics.
+
+### 4.2. The Image Classification Dataset
+
+adsf
 
 ---
 

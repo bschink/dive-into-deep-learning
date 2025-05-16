@@ -51,6 +51,7 @@ I want to:
 - Numpy
 - Pandas
 - Matplotlib
+- torchvision
 - Jupyter Notebooks
 - VS Code
 
