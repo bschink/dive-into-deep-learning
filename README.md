@@ -1,6 +1,6 @@
 # 📘 Dive into Deep Learning – My Learning Journey
 
-This repository documents my personal journey through the [Dive into Deep Learning](https://d2l.ai/) book. I'm working through the chapters using **PyTorch**, implementing core deep learning models from scratch, experimenting with the concepts, and probably extending them into small side projects.
+This repository documents my personal journey through the [Dive into Deep Learning](https://d2l.ai/) book. I'm working through the chapters using **PyTorch**, implementing core deep learning models from scratch, experimenting with the concepts, and probably extending them into small side projects. To get a deeper understanding I am not using the d2l package but implement my own Python files and packages while working through the book.
 
 My goal is to build a strong, intuitive, and hands-on understanding of modern deep learning – from basics to advanced models – as part of my master's degree in computer science with a focus on machine learning and data science.
 
