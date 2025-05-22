@@ -9,7 +9,8 @@
 | Notebook | Topic |
 |----------|-------|
 | `06_01_layers_and_modules` | custom Pytorch modules, Sequential module from scratch |
-| `06_02_parameter_management` | abc |
+| `06_02_parameter_management` | parameter access, tied parameters |
+| `06_03_parameter_initialization` | built-in & custom initializers |
 
 ---
 
@@ -21,7 +22,11 @@ Introduction to building custom Pytorch modules and different ways of using them
 
 ### 6.2. Parameter Management
 
-abc
+How to access parameters inside modules and how to tie paramters of different layers together.
+
+### 6.3. Parameter Initialization
+
+How to initialize parameters using built-in and custom initializers.
 
 ---
 
