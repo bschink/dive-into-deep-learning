@@ -11,6 +11,8 @@
 | `06_01_layers_and_modules` | custom Pytorch modules, Sequential module from scratch |
 | `06_02_parameter_management` | parameter access, tied parameters |
 | `06_03_parameter_initialization` | built-in & custom initializers |
+| `06_04_lazy_initialization` | lazy initialization |
+| `06_05_custom_layers` | ölkj |
 
 ---
 
@@ -27,6 +29,14 @@ How to access parameters inside modules and how to tie paramters of different la
 ### 6.3. Parameter Initialization
 
 How to initialize parameters using built-in and custom initializers.
+
+### 6.4. Lazy Initialization
+
+Explained how lazy initialization inside Pytorch works
+
+### 6.5. Custom Layers
+
+adsf
 
 ---
 

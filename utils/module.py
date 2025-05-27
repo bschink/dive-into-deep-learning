@@ -47,3 +47,8 @@ class Module(nn.Module, HyperParameters):
 
     def configure_optimizers(self):
         raise NotImplementedError
+    
+    def apply_init(self, inputs, init=None):
+        self.forward(*inputs)
+        if init is not None:
+            self.net.apply(init)

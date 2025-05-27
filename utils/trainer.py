@@ -6,9 +6,9 @@ from utils import HyperParameters
 
 class Trainer(HyperParameters):
     """The base class for training models with data."""
-    def __init__(self, max_epochs, num_gpus=0, gradient_clip_val=0):
+    def __init__(self, max_epochs, num_gpus=1, gradient_clip_val=0):
         self.save_hyperparameters()
-        assert num_gpus == 0, 'No GPU support yet'
+        self.gpus = [torch.device(f'mps:{i}') for i in range(min(num_gpus, torch.mps.device_count()))]
 
     def prepare_data(self, data):
         self.train_dataloader = data.train_dataloader()
@@ -16,10 +16,12 @@ class Trainer(HyperParameters):
         self.num_train_batches = len(self.train_dataloader)
         self.num_val_batches = (len(self.val_dataloader)
                                 if self.val_dataloader is not None else 0)
-
+    
     def prepare_model(self, model):
         model.trainer = self
         model.board.xlim = [0, self.max_epochs]
+        if self.gpus:
+            model.to(self.gpus[0])
         self.model = model
 
     def fit(self, model, data):
@@ -33,6 +35,8 @@ class Trainer(HyperParameters):
             self.fit_epoch()
     
     def prepare_batch(self, batch):
+        if self.gpus:
+            batch = [a.to(self.gpus[0]) for a in batch]
         return batch
 
     def fit_epoch(self):
