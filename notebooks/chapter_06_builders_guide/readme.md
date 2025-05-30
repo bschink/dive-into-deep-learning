@@ -12,7 +12,9 @@
 | `06_02_parameter_management` | parameter access, tied parameters |
 | `06_03_parameter_initialization` | built-in & custom initializers |
 | `06_04_lazy_initialization` | lazy initialization |
-| `06_05_custom_layers` | ölkj |
+| `06_05_custom_layers` | custom layers with/without parameters |
+| `06_06_file_io` | loading & saving tensors |
+| `06_07_gpus` | computing devices |
 
 ---
 
@@ -36,7 +38,15 @@ Explained how lazy initialization inside Pytorch works
 
 ### 6.5. Custom Layers
 
-adsf
+Building custom layers with or without parameters.
+
+### 6.6 File I/O
+
+How to load and save tensors and model parameters to files.
+
+### 6.7. GPUs
+
+Explained how to create computing devices and how to copy or store tensors on the gpu.
 
 ---
 
