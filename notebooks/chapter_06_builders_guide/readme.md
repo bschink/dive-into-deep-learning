@@ -1,6 +1,6 @@
 # 📘 Chapter 06 – Builders’ Guide
 
-<!-- TODO write summary-->
+In this chapter, I explored PyTorch’s core building blocks in more depth, focusing on writing clean, modular, and flexible deep learning code. I learned how to create custom modules and layers, manage and initialize parameters, and implement lazy initialization. The chapter also covered practical aspects like saving and loading model parameters, as well as leveraging GPUs for computation.
 
 ---
 

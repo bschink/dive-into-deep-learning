@@ -2,8 +2,22 @@
 
 import torch
 
+from utils import HyperParameters
 from utils import Module
-from optim import SGD
+
+class SGD(HyperParameters):
+    """Minibatch stochastic gradient descent."""
+    def __init__(self, params, lr):
+        self.save_hyperparameters()
+
+    def step(self):
+        for param in self.params:
+            param -= self.lr * param.grad
+
+    def zero_grad(self):
+        for param in self.params:
+            if param.grad is not None:
+                param.grad.zero_()
 
 class LinearRegressionScratch(Module):
     """The linear regression model implemented from scratch."""
