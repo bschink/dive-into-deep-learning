@@ -8,12 +8,13 @@ from utils import Module
 class Classifier(Module):
     """The base class of classification models."""
     def validation_step(self, batch):
-        Y_hat = self(*batch[:-1])
-        self.plot('loss', self.loss(Y_hat, batch[-1]), train=False)
-        self.plot('acc', self.accuracy(Y_hat, batch[-1]), train=False)
+        with torch.no_grad():
+            Y_hat = self(*batch[:-1])
+            self.plot('loss', self.loss(Y_hat, batch[-1]), train=False)
+            self.plot('acc', self.accuracy(Y_hat, batch[-1]), train=False)
 
     def configure_optimizers(self):
-        return torch.optim.SGD(self.parameters(), lr=self.lr)
+        return torch.optim.AdamW(self.parameters(), lr=self.lr)
     
     def accuracy(self, Y_hat, Y, averaged=True):
         """Compute the number of correct predictions."""
