@@ -8,10 +8,9 @@ from utils import Module
 class Classifier(Module):
     """The base class of classification models."""
     def validation_step(self, batch):
-        with torch.no_grad():
-            Y_hat = self(*batch[:-1])
-            self.plot('loss', self.loss(Y_hat, batch[-1]), train=False)
-            self.plot('acc', self.accuracy(Y_hat, batch[-1]), train=False)
+        Y_hat = self(*batch[:-1])
+        self.plot('loss', self.loss(Y_hat, batch[-1]), train=False)
+        self.plot('acc', self.accuracy(Y_hat, batch[-1]), train=False)
 
     def configure_optimizers(self):
         return torch.optim.AdamW(self.parameters(), lr=self.lr)
