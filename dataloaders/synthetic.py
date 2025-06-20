@@ -1,4 +1,4 @@
-# utils/synthetic.py
+# dataloaders/synthetic.py
 
 import torch
 

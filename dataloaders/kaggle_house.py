@@ -1,4 +1,4 @@
-# utils/kaggle_house.py
+# dataloaders/kaggle_house.py
 
 import sys
 

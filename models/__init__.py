@@ -7,3 +7,7 @@ from .softmax_regression import SoftmaxRegression
 from .mlp_scratch import MLPScratch
 from .mlp import MLP
 from .dropout_mlp_regression import DropoutMLPRegression
+from .rnn_scratch import RNNScratch
+from .rnn_lm_scratch import RNNLMScratch
+from .rnn import RNN
+from .rnn_lm import RNNLM

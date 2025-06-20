@@ -1,3 +1,5 @@
+# dataloaders/fashion_mnist.py
+
 import sys
 
 import torch
