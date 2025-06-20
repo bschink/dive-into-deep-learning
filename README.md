@@ -22,11 +22,12 @@ Each chapter folder contains:
 | `chapter_03_linear_neural_networks_for_regression` | 3. Linear Neural Networks for Regression | ✅ Done |
 | `chapter_04_linear_neural_networks_for_classification` | 4. Linear Neural Networks for Classification | ✅ Done |
 | `chapter_05_multilayer_perceptrons` | 5. Multilayer Perceptrons | ✅ Done |
-| `chapter_06_builders_guide` | 6. Builders’ Guide | 🛠 In Progress |
-| `chapter_07_convolutional_neural_networks` | 7. Convolutional Neural Networks | 🔜 Planned |
-| … | 8. Modern Convolutional Neural Networks | 🔜 Planned |
-| … | 9. Recurrent Neural Networks | 🔜 Planned |
-| … | 10. Modern Recurrent Neural Networks | 🔜 Planned |
+| `chapter_06_builders_guide` | 6. Builders’ Guide | ✅ Done |
+| `chapter_07_convolutional_neural_networks` | 7. Convolutional Neural Networks | ✅ Done |
+| `chapter_08_modern_convolutional_neural_networks` | 8. Modern Convolutional Neural Networks | ✅ Done |
+| `chapter_09_recurrent_neural_networks` | 9. Recurrent Neural Networks | ✅ Done |
+| `chapter_10_modern_recurrent_neural_networks` | 10. Modern Recurrent Neural Networks | 🛠 In Progress |
+| `chapter_11_attention_mechanisms_and_transformers` | 11. Attention Mechanisms and Transformers | 🔜 Planned |
 | ...    | ...                         | ...    |
 
 ### 🛠️ Projects
