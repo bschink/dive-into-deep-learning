@@ -11,3 +11,4 @@ from .rnn_scratch import RNNScratch
 from .rnn_lm_scratch import RNNLMScratch
 from .rnn import RNN
 from .rnn_lm import RNNLM
+from .encoder_decoder_interfaces import Encoder, Decoder, EncoderDecoder
