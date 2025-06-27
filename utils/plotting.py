@@ -124,3 +124,21 @@ def show_list_len_pair_hist(legend, xlabel, ylabel, xlist, ylist):
     for patch in patches[1].patches:
         patch.set_hatch('/')
     plt.legend(legend)
+
+def show_heatmaps(matrices, xlabel, ylabel, titles=None, figsize=(2.5, 2.5),
+                  cmap='Reds'):
+    """Show heatmaps of matrices."""
+    use_svg_display()
+    num_rows, num_cols, _, _ = matrices.shape
+    fig, axes = plt.subplots(num_rows, num_cols, figsize=figsize,
+                                 sharex=True, sharey=True, squeeze=False)
+    for i, (row_axes, row_matrices) in enumerate(zip(axes, matrices)):
+        for j, (ax, matrix) in enumerate(zip(row_axes, row_matrices)):
+            pcm = ax.imshow(matrix.detach().numpy(), cmap=cmap)
+            if i == num_rows - 1:
+                ax.set_xlabel(xlabel)
+            if j == 0:
+                ax.set_ylabel(ylabel)
+            if titles:
+                ax.set_title(titles[j])
+    fig.colorbar(pcm, ax=axes, shrink=0.6);

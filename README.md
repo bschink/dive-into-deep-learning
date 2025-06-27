@@ -26,8 +26,9 @@ Each chapter folder contains:
 | `chapter_07_convolutional_neural_networks` | 7. Convolutional Neural Networks | ✅ Done |
 | `chapter_08_modern_convolutional_neural_networks` | 8. Modern Convolutional Neural Networks | ✅ Done |
 | `chapter_09_recurrent_neural_networks` | 9. Recurrent Neural Networks | ✅ Done |
-| `chapter_10_modern_recurrent_neural_networks` | 10. Modern Recurrent Neural Networks | 🛠 In Progress |
-| `chapter_11_attention_mechanisms_and_transformers` | 11. Attention Mechanisms and Transformers | 🔜 Planned |
+| `chapter_10_modern_recurrent_neural_networks` | 10. Modern Recurrent Neural Networks | ✅ Done |
+| `chapter_11_attention_mechanisms_and_transformers` | 11. Attention Mechanisms and Transformers | 🛠 In Progress |
+| `chapter_12_optimization_algorithms` | 12. Optimization Algorithms | 🔜 Planned |
 | ...    | ...                         | ...    |
 
 ### 🛠️ Projects
